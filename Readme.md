@@ -10,7 +10,7 @@ just Publish it with .NETCore and you are Done
 </font>
 </p>
 piece of code
-```Csharp
+```CSharp
 
    TimeSpan DirectoryTreeTotalMediaDuration(string path)
         {
