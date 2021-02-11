@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Muhammad\\Documents\\projects\\Test\\Duration.csproj": {}
+    "C:\\Users\\Muhammad\\Documents\\projects\\TotalMediaTreeDuration\\Duration.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Muhammad\\Documents\\projects\\Test\\Duration.csproj": {
+    "C:\\Users\\Muhammad\\Documents\\projects\\TotalMediaTreeDuration\\Duration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muhammad\\Documents\\projects\\Test\\Duration.csproj",
+        "projectUniqueName": "C:\\Users\\Muhammad\\Documents\\projects\\TotalMediaTreeDuration\\Duration.csproj",
         "projectName": "Duration",
-        "projectPath": "C:\\Users\\Muhammad\\Documents\\projects\\Test\\Duration.csproj",
+        "projectPath": "C:\\Users\\Muhammad\\Documents\\projects\\TotalMediaTreeDuration\\Duration.csproj",
         "packagesPath": "C:\\Users\\Muhammad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muhammad\\Documents\\projects\\Test\\obj\\",
+        "outputPath": "C:\\Users\\Muhammad\\Documents\\projects\\TotalMediaTreeDuration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Muhammad\\AppData\\Roaming\\NuGet\\NuGet.Config"

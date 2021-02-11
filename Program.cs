@@ -30,11 +30,21 @@ namespace Duration
             TimeSpan duration = new TimeSpan(0, 0, 0);
             try
             {
+
                 IEnumerator localDirectories = Directory.EnumerateDirectories(path).GetEnumerator();
+                IEnumerator files;
+                System.Console.WriteLine(path);
+                files=Directory.EnumerateFiles(path).GetEnumerator();
+                while (files.MoveNext())
+                {
+                    int fileLength = (int)wmp.newMedia(files.Current.ToString()).duration;
+                    TimeSpan fileLengthspan = new TimeSpan(0, 0, fileLength);
+                    duration = duration + fileLengthspan;
+                }
                 while (localDirectories.MoveNext())
                 {
                     duration = duration + DirectoryTreeTotalMediaDuration(localDirectories.Current.ToString());
-                    IEnumerator files = Directory.EnumerateFiles(localDirectories.Current.ToString()).GetEnumerator();
+                    files = Directory.EnumerateFiles(localDirectories.Current.ToString()).GetEnumerator();
                     System.Console.WriteLine(localDirectories.Current.ToString());
                     while (files.MoveNext())
                     {

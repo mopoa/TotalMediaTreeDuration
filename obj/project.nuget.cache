@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RGVSW0o81CLmyb46ViKhh6UvRNELmT9w9h56rkpgBr9eIaNi+naQI6Cpkjm1vTzagBqepRlzZUL/2tRYmTlJOA==",
+  "dgSpecHash": "9bwjAD1C0k1D6HSvw+KPcJh/UxDxTrChaII4QMExc8M7g0rDoe9monWhGqBVl0HCJkfmxUBKzSR8lS5U1T+eWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Muhammad\\Documents\\projects\\Test\\Duration.csproj",
+  "projectFilePath": "C:\\Users\\Muhammad\\Documents\\projects\\TotalMediaTreeDuration\\Duration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Muhammad\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Muhammad\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
